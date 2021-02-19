@@ -20,7 +20,8 @@ public class fightiml implements fight{
 			b.setLive(b.getLive()-a.getAttack());
 			if(b.getLive()>0) {
 				System.out.println(a.getName() + "愤怒重锤对" + b.getName() + "造成" + a.getAttack() + "伤害" + b.getName() + "剩下" + b.getLive() + "血量");
-			}else System.out.println(a.getName()+"敲烂"+b.getName()+"的屁股"+b.getName()+"仓皇逃跑");
+			}else System.out.println(a.getName()+"敲烂"+b.getName()+"的小屋
+"+b.getName()+"仓皇逃跑");
 			System.out.println("======================================\n\n");
 		}
 		if (b.getName()=="狡诈哥布林"&&b.getLive() <= 0) {
